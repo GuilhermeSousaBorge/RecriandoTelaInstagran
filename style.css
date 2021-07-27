@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(243, 243, 243);
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+
+.instagramWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 50%;
+    height: 100vh;
+    border: 3px;
+}
+
+.instagram-phone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.instagram-phone img{
+    width: 20rem;
+    height: 20rem;
+}
+
+.instagram-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 50%;
+    min-height: 34rem;
+}
+
+.group{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    border: 1px solid lightgray;
+    background-color: #ffff;
+    width: 100%;
+    padding: 1.5rem 0;
+
+}
+
+.groupform{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 1.5rem;
+}
+
+.user{
+   padding: 5px 60px;
+}
+.password{
+    padding: 5px 60px;
+}
+.btn-submit{
+     padding: 5px 127px;
+     background-color: lightskyblue;
+     border-radius: 5px;
+     outline: none;
+}
+.text{
+    padding: 1rem;
+    padding-bottom: 3rem;
+}
+
+.title{
+    font-size: 28px;
+    padding-bottom: 5rem;
+}
+
+.link{
+    padding: 1.3rem;
+}
+.app{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.Apps{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    width: 100%;
+}
+.Apps a{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 30%;
+}
+.apple{
+    height: 50px;
+    width: 135px;
+}
+
+.google{
+    height: 50px;
+    width: 135px;
+}
